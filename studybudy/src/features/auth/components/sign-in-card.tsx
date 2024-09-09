@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { FaGithub } from "react-icons/fa";
 import { SignInFlow } from "./types";
 import {useState} from 'react';
 
@@ -55,16 +54,6 @@ export const SignInCard = ({setState} : SignInCardProps) => {
                 className="w-full relative"
                 >
                     <FcGoogle className="size-5 absolute top-3 left-2.5"/>Continue With Google
-                </Button>
-
-                <Button
-                disabled={false}
-                onClick={() => {}}
-                variant="outline"
-                size="lg"
-                className="w-full relative"
-                >
-                    <FaGithub className="size-5 absolute top-3 left-2.5"/>Continue With Github
                 </Button>
                 <div>
                     <p className="text-xs text-muted-foreground">
